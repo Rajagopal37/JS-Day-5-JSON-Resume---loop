@@ -1,0 +1,19 @@
+{
+    "Name":"Rajagopal T",
+    "Mobile":"6383837661",
+    "E-mail ID" : "trajagopal37@gmail.com",
+
+    "Technical Skills":"[HTML,CSS,Bootstrap,JavaScript,MongoDB,React,NodeJS,ExpressJS,AWS]",
+
+    "Other Skills":"[MS-Office,AutoCAD,SolidWorks,SolidEdge]",
+
+    // "Exprience":"[{ company:GBL, Designation:P&M, Duration:3 years },{ company:GBL, Designation:P&M, Duration:3 years },
+    //               { company:GBL, Designation:P&M, Duration:3 years }]",
+
+    // "Strength":"["Strong Interpersonal and Communication skills", Ability to work in a team with diverse backgrounds, Willing to learn and adapt to new opportunities and challenges, Always having a Positive attitude , Punctuality
+    // ]"
+
+    "Educational Qualification"  : "{}",
+
+    
+}
