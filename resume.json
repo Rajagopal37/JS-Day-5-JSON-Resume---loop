@@ -1,19 +1,71 @@
 {
     "Name":"Rajagopal T",
-    "Mobile":"6383837661",
+    "Mobile":"(+91) 6383837661",
     "E-mail ID" : "trajagopal37@gmail.com",
 
-    "Technical Skills":"[HTML,CSS,Bootstrap,JavaScript,MongoDB,React,NodeJS,ExpressJS,AWS]",
+    "Technical Skills":["HTML","CSS","Bootstrap","JavaScript","MongoDB",
+                        "React","NodeJS","ExpressJS","AWS"],
 
-    "Other Skills":"[MS-Office,AutoCAD,SolidWorks,SolidEdge]",
+    "Other Skills":["MS-Office","AutoCAD","SolidWorks","SolidEdge"],
 
-    // "Exprience":"[{ company:GBL, Designation:P&M, Duration:3 years },{ company:GBL, Designation:P&M, Duration:3 years },
-    //               { company:GBL, Designation:P&M, Duration:3 years }]",
+    "Exprience":[{ "company":"Ganesan Builers Ltd",
+                    "Designation":"Planning and Maintenance Officer",
+                    "Duration":"3 years" },
 
-    // "Strength":"["Strong Interpersonal and Communication skills", Ability to work in a team with diverse backgrounds, Willing to learn and adapt to new opportunities and challenges, Always having a Positive attitude , Punctuality
-    // ]"
+                { "company":"RDC Concrete Pvt Ltd",
+                "Designation":"Production Officer",
+                "Duration":"2 years" },
 
-    "Educational Qualification"  : "{}",
+                { "company":"Wheels India Pvt Ltd",
+                    "Designation":"Technician",
+                    "Duration":"1 years" },
+
+                { "company":"lucas TVS Pvt ltd",
+                    "Designation":"Apperentice Technician",
+                    "Duration":"1 years" }],
+               
+
+    "Strength": ["Strong Interpersonal and Communication skills", 
+                "Ability to work in a team with diverse backgrounds", 
+                "Willing to learn and adapt to new opportunities and challenges", "Always having a Positive attitude" , "Punctuality" ],
+
+    "Educational Qualification" : [
+        {   "UG Gegree" : "Bachelor of Engineering",
+            "Department": "Mechanical Engineering",
+            "UG Percentage": "75.8%",
+            "Year of Passing": "2018",
+            "College Name":"Einstein College of Engineering",
+            "UG College City":"Tirunelveli"},
+
+        {   "Diploma Course" : "Diploma in Mechanical Engineering",
+            "UG Percentage": "79.1%",
+            "Year of Passing": "2013",
+            "College Name":"Government Polytechnic College",
+            "UG College City":"Ooty"},
+        
+        {   "HSC Percentage": "77.5%",
+            "Year of Passing": "2011",
+            "School Name":"N C Hr Sec School",
+            "School City":"Tirunelveli"},
+
+        {   "SSLC Percentage": "84.6%",
+            "Year of Passing": "2009",
+            "School Name":"N C Hr Sec School",
+            "School City":"Tirunelveli"}],
+
+    "Hobbies" : ["Cricket","Bike Riding"],
+
+    "Personal Information":
+        {
+            "Father's Name": "Mr. Thangamariappan c",
+            "Date of Birth": "13-07-1994",
+            "Gender":"Male",
+            "Qualification":"Bachelor of Engineering",
+            "District":"Tenkasi",
+            "State":"Tamilnadu",
+            "Marital Status":"Single",
+            "Languages Known" : ["Tamil","English","Hindi"]
+        }
 
     
 }
