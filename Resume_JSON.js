@@ -146,6 +146,7 @@ for (let [category, value] of Object.entries(resumeJSON)) {
 
 
 //-------------------------for each loop---------------------------------------
+
   let resumeArray = Object.entries(resumeJSON);
   resumeArray.forEach(item => {
       let category = item[0];
