@@ -73,6 +73,7 @@ let resumeJSON = {
 console.log(resumeJSON);
 document.getElementById("01").innerHTML = JSON.stringify(resumeJSON);
 
+//--------------for loop----------------------------------------------
 
 for(let i=0; i<Object.keys(resumeJSON).length;i++) {
     let key = Object.keys(resumeJSON)[i];
@@ -93,18 +94,58 @@ for(let i=0; i<Object.keys(resumeJSON).length;i++) {
             console.log(resumeJSON[key][innerKey][l])
         }
     }
+    console.log("-------------------------");
 }
 
 
-for ( let key in resumeJSON ){
-    console.log("For in loop:",key,resumeJSON[key])
+
+//------------------------for in loop------------------------------------
+
+for (let category in resumeJSON) {
+    console.log("Category:", category);
+    let value = resumeJSON[category];
+    if (Array.isArray(value)) {
+        console.log("Items:");
+        value.forEach((item, index) => {
+            console.log("Item", index + 1, ":", item);
+        });
+    } else if (typeof value === 'object') {
+        console.log("Details:");
+        for (let key in value) {
+            console.log(key + ": " + value[key]);
+        }
+    } else {
+        console.log("Value:", value);
+    }
+    console.log("-------------------------");
 }
 
 
-for (const [key, value] of Object.entries(resumeJSON)) {
-    console.log(`for of loop : ${key}: ${value}`);
-  }
 
+//--------------------------for of loop--------------------------------------
+
+for (let [category, value] of Object.entries(resumeJSON)) {
+    console.log("Category:", category);
+    if (Array.isArray(value)) {
+        console.log("Items:");
+        for (let item of value) {
+            console.log("-", item);
+        }
+    } else if (typeof value === 'object') {
+        console.log("Details:");
+        for (let [key, val] of Object.entries(value)) {
+            console.log("-", key + ": " + val);
+        }
+    } else {
+        console.log("Value:", value);
+    }
+    console.log("-------------------------");
+}
+
+
+
+
+//-------------------------for each loop---------------------------------------
   let resumeArray = Object.entries(resumeJSON);
   resumeArray.forEach(item => {
       let category = item[0];
@@ -123,6 +164,7 @@ for (const [key, value] of Object.entries(resumeJSON)) {
       } else {
           console.log(value);
       }
+      console.log("-------------------------");
   });
 
 
